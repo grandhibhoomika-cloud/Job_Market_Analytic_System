@@ -1,20 +1,11 @@
 import streamlit as st
 import pandas as pd
-import mysql.connector
-
+df = pd.read_csv("jobs.csv")
 st.set_page_config(page_title="Job Analytics Pro", layout="wide")
 
 st.title("💼 Job Market Analytics Dashboard")
 
-conn = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="mysql123",
-    database="job_market_db"
-)
 
-query = "SELECT * FROM job_listings"
-df = pd.read_sql(query, conn)
 
 # Sidebar
 st.sidebar.header("Filters")
