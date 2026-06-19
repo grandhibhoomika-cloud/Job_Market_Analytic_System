@@ -1,5 +1,8 @@
 # Job Market Analytics System
 
+#LIVE DEMO
+https://jobmarketanalyticsystem-n8zgdbcu2zrhqp6fhqzp3t.streamlit.app/
+
 ## Overview
 
 The Job Market Analytics System is an end-to-end data analytics project built using Python, MySQL, SQL, Pandas, and Streamlit.
