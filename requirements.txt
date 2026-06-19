@@ -1,4 +1,7 @@
 streamlit
 pandas
-beautifulsoup4
+mysql-connector-python
 requests
+beautifulsoup4
+sqlalchemy
+pymysql
